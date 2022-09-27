@@ -33,9 +33,14 @@ def index():
 
         session['name'] = form.name.data
         session['email'] = form.UTemail.data
+        if "utoronto" in form.UTemail.data:
+            session['UTbool']= True
+        else:
+            session['UTbool']= False
+
 
         return (redirect(url_for('index')))
-    return render_template('user.html',form = form, name=session.get('name'), email=session.get('email'))
+    return render_template('user.html',form = form, name=session.get('name'), email=session.get('email'), emailbool =session.get('UTbool'))
 
 
     

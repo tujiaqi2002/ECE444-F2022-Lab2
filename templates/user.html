@@ -40,8 +40,12 @@
         <h1>Hello,Strangers!</h1>
         {% endif %}
         
-        {% if email%}
+        {% if email %}
+        {% if emailbool %}
         <h1>Your UofT email is {{email}}</h1>
+        {% else %}
+        <h1>Please use your UofT email</h1>
+        {% endif %}
         {% endif %}
     </div>
     {% import "bootstrap/wtf.html" as wtf %}
