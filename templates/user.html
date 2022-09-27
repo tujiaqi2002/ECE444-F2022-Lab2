@@ -26,8 +26,23 @@
 
 {% block content %}
 <div class="container">
+    {%for message in get_flashed_messages() %}
+    <div class="alert alert-warning">
+        <button type="button" class="close" data-dismiss="alert">&times;</button>
+        {{ message }}
+    </div>
+    {% endfor %}
+    
     <div class="page-header">
+        {% if name %}
         <h1>Hello,{{name}}!</h1>
+        {% else %}
+        <h1>Hello,Strangers!</h1>
+        {% endif %}
+        
+        {% if email%}
+        <h1>Your UofT email is {{email}}</h1>
+        {% endif %}
     </div>
     {% import "bootstrap/wtf.html" as wtf %}
     {{ wtf.quick_form(form) }}
