@@ -12,10 +12,14 @@ This repo is a clone of https://github.com/miguelgrinberg/flasky
 
 # Activity #4
 #1
-<img width="1101" alt="Screen Shot 2022-09-27 at 3 42 21 PM" src="https://user-images.githubusercontent.com/85442571/192624663-d8cd62f7-4cac-4ed2-91e6-c2e9daba78ac.png">
+<img width="1096" alt="Screen Shot 2022-09-27 at 3 42 21 PM" src="https://user-images.githubusercontent.com/85442571/192626079-9e931dec-d025-4376-aea5-8c8dd43d65c3.png">
+
 #2
+
 <img width="865" alt="Screen Shot 2022-09-27 at 3 43 39 PM" src="https://user-images.githubusercontent.com/85442571/192625561-3a2b4b70-172d-4593-b947-8968cee90ced.png">
+
 #3
 <img width="970" alt="Screen Shot 2022-09-27 at 3 44 16 PM" src="https://user-images.githubusercontent.com/85442571/192625454-57967b7b-5e0d-46f5-95e3-6a7af8848fe6.png">
+
 #4
 <img width="1065" alt="Screen Shot 2022-09-27 at 4 00 29 PM" src="https://user-images.githubusercontent.com/85442571/192625366-bdf933d4-0248-474d-8b91-905c520d724b.png">
